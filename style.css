@@ -535,6 +535,12 @@ header img {
     .nav-container ul.active {
         display: flex;
     }
+
+    .hero-content {
+        margin-top: 150px;
+        animation: fadeIn 2s ease-in-out;
+    
+    }
 }
 
 /* Animations */
