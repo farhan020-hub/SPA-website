@@ -40,7 +40,6 @@ header img {
     margin-right: 40px;
 }
 
-
 .nav-container a:hover{
     color: indianred;
 }
@@ -50,6 +49,12 @@ header img {
     color: #fefafa;
     font-weight: bold;
     font-size: 18px;
+    padding: 10px;
+}
+
+.active {
+    border-bottom: 1px solid indianred;
+    
 }
 
 .hamburger-menu {
@@ -125,6 +130,95 @@ header img {
 .cta-button:hover {
     background: #555;
 }
+
+
+/* Button Down Arrow */
+.btn-down .fa-solid {
+    color: #fff;
+    font-size: 36px;
+    animation: bounce 2s infinite;
+}
+
+/* Why Choose Us Section */
+.why-choose-us-section {
+    padding: 60px 20px;
+    margin-bottom: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.why-choose-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.benefit-item {
+    padding: 20px;
+    background: #121111;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.benefit-item i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff9800;
+}
+
+.benefit-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.benefit-item p {
+    font-size: 16px;
+    color: #fffafa;
+}
+
+.benefit-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Call to Action Section */
+.cta-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #ff9800;
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-button {
+    background: #fff;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.cta-section .cta-button:hover {
+    background: #292727;
+}
+
+
+
 /* About Section Styles */
 .about-section {
     padding: 20px 20px;
@@ -339,7 +433,7 @@ header img {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
-    width: 100%;
+    width: 90%;
     transition: border-color 0.3s;
 }
 
